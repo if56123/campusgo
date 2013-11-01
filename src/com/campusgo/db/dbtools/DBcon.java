@@ -3,7 +3,7 @@ package com.campusgo.db.dbtools;
 import java.sql.*;
 public class DBcon {
 	private String forname = "org.postgresql.Driver";
-	private String url = "jdbc:postgresql://192.168.1.113:5432/sql_goods";
+	private String url = "jdbc:postgresql://yzbay.eicp.net:47917/sql_goods";
 	private String user = "postgres";
 	private String pwd = "mytaobao";
 	private Connection con = null;
